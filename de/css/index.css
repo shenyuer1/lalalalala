@@ -1,0 +1,140 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-24 10:05:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-30 10:56:14
+*/
+@import url('base.css');
+body{
+     font-size: 0.2rem;
+}
+.box{
+	width: 10rem;
+	height: 100%;
+}
+.box li{
+	width: 3.02rem;
+	height: 3.02rem;
+	border: 0.01rem solid #000;
+	float: left;
+	margin: 0.1rem;
+	border-radius: 0.5rem;
+}
+.box li .item{
+	width: 0.8rem;
+	height: 0.8rem;
+	background: red;
+	border-radius: 50%;
+	margin: 0.1rem;
+}
+.box li:first-child{
+     display: flex;
+}
+.box li:nth-child(2){
+     display: flex;
+     justify-content: center;
+}
+.box li:nth-child(3){
+     display: flex;
+     justify-content: flex-end;
+}
+.box li:nth-child(4){
+     display: flex;
+     align-items: center;
+}
+.box li:nth-child(5){
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.box li:nth-child(6){
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+}
+.box li:nth-child(7){
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-end;
+}
+.box li:nth-child(8){
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+}
+.box li:nth-child(9){
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+}
+.box li:nth-child(10){
+     display: flex;
+     justify-content: space-between;
+}
+.box li:nth-child(11){
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.box li:nth-child(12){
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+.box li:nth-child(13){
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-end;
+}
+.box .box1{
+	display: flex;
+}
+.box .box1 .item:nth-child(2){
+	align-self: center;
+}
+.box .box2{
+	display: flex;
+	justify-content: space-between;
+}
+.box .box2 .item:nth-child(2){
+	align-self: flex-end;
+}
+.box .box3{
+	display: flex;
+}
+.box .box3 .item:nth-child(2){
+	align-self: center;
+}
+.box .box3 .item:nth-child(3){
+	align-self: flex-end;
+}
+.box .box4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.box .box4 .item:nth-child(4){
+	align-self: flex-end;
+}
+.box .box5{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.box .box5 .row{
+     display: flex;
+     flex-basis: 100%;
+     justify-content: space-between;
+}
+.box .box6{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.box .box6 .row{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-around;
+}
